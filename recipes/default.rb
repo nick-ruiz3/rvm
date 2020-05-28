@@ -24,7 +24,7 @@ chef_gem 'rvm' do
 end
 require 'rvm'
 
-create_rvm_shell_chef_wrapper
+#create_rvm_shell_chef_wrapper
 create_rvm_chef_user_environment
 
 class Chef::Resource

@@ -39,7 +39,7 @@ default['rvm']['gems']      = {}
 default['rvm']['user_gems'] = {}
 
 # hash of rvmrc options
-default['rvm']['rvmrc_env'] = { 'rvm_gem_options' => '--no-ri' }
+default['rvm']['rvmrc_env'] = { 'rvm_gem_options' => '' }
 
 # a hash of user hashes, each an isolated per-user RVM installation
 default['rvm']['installs'] = {}
