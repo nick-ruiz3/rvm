@@ -25,7 +25,7 @@ end
 require 'rvm'
 
 #create_rvm_shell_chef_wrapper
-create_rvm_chef_user_environment
+#create_rvm_chef_user_environment
 
 class Chef::Resource
   # mix in #rvm_cmd_wrap helper into resources
